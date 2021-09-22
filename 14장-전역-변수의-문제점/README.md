@@ -9,7 +9,7 @@
 
 ```javascript
 function foo() {
-  var x = 'local';
+  var x = "local";
   console.log(x); // local
   return x;
 }
@@ -62,12 +62,12 @@ console.log(x);
 ```js
 var MYAPP = {};
 
-MYAPP.name = 'yujo';
+MYAPP.name = "yujo";
 
 MYAPP.person = {
-  name: 'yujo',
-  address: 'seoul'
-}
+  name: "yujo",
+  address: "seoul",
+};
 ```
 
 ### 14.3.3 모듈 패턴
@@ -79,9 +79,9 @@ MYAPP.person = {
 > 캡슐화: 객체의 상태를 나타내는 프로퍼티와 프로퍼티를 참조하고 조작할 수 있는 동작인 메서드를 하나로 묶는 것을 말한다.
 
 ```js
-var Counter = (function() {
+var Counter = (function () {
   var num = 0; // private 변수
-  
+
   // 외부로 공개할 데이터나 메서드
   return {
     increase() {
@@ -89,9 +89,9 @@ var Counter = (function() {
     },
     decrease() {
       return --num;
-    }
-  }
-}());
+    },
+  };
+})();
 
 console.log(Counter.num); // undefined
 console.log(Counter.increase()); // 1
@@ -106,3 +106,5 @@ console.log(Counter.increase()); // 1
 <script type="modue" src="./index.mjs"></script>
 ```
 
+- ES6 모듈은 IE를 포함한 구형 브라우저에서는 동작하지 않는다.
+- 때문에 아직까지는 브라우저가 지원하는 ES6 모듈 기능보다는 Webpack등의 모듈 번들러를 사용하는 것이 일반적이다.
