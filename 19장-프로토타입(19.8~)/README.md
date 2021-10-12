@@ -31,7 +31,7 @@ me.sayHello(); // Hey! My name is Lee
 
 생성자 함수로 객체(인스턴스)-me를 생성하고, 인스턴스에 메서드-sayHello()를 추가했다.
 
-![1](./img/README/1.jpg)
+<img src="./img/README/1.jpg" width="80%">
 
 #### 2.프로퍼티 섀도잉
 
@@ -130,7 +130,9 @@ const Person = (function () {
 const me = new Person('Lee');
 ```
 
-①에서 Person.prototype에 객체 리터럴을 할당했다. 이는 Person 생성자 함수가 생성할 객체의 프로토타입을 객체 리터럴로 교체한 것이다. ![2](./img/README/2.jpg)
+①에서 Person.prototype에 객체 리터럴을 할당했다. 이는 Person 생성자 함수가 생성할 객체의 프로토타입을 객체 리터럴로 교체한 것이다.
+
+<img src="./img/README/2.jpg" width="80%"> 
 
 프로토타입이 교체한 객체 리터럴에는 constructor 프로퍼티가 없다. constructor 프로퍼티는 자바스크립트 엔진이 프로토타입을 생성할 때 암묵적으로 추가한 프로퍼티다. 따라서 me 객체의 생성자 함수를 검색하면 Person이 아닌 Object가 나온다.
 
@@ -196,7 +198,9 @@ Object.setPrototypeOf(me, parent);
 me.sayHello(); // Hi! My name is Lee
 ```
 
-![3](./img/README/3.jpg)
+<img src="./img/README/3.jpg" width="80%">
+
+
 
 프로토타입으로 교체한 객체에는 contructor 프로퍼티가 없으므로 constructor 프로퍼티와 생성자 함수 간의 연결이 파괴된다. 따라서 프로토타입의 contructor 프로퍼티로 me 객체의 생성자 함수를 검색하면 Person이 아닌 Object가 나온다.
 
@@ -209,7 +213,7 @@ console.log(me.constructor === Object); // true
 
 #### 19.9.1 생성자 함수에 의한 프로토타입 교체 vs 19.9.2 인스턴스에 의한 프로토타입 교체
 
-![4](./img/README/4.jpg)
+<img src="./img/README/4.jpg" width="80%">
 
 프로토타입으로 교체한 객체 리터럴에 contructor 프로퍼티를 추가하고 생성자 함수의 prototype 프로퍼티를 재설정하여 파괴된 생성자 함수와 프로토타입 간의 연결을 되살려보자.
 
