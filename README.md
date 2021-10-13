@@ -157,3 +157,18 @@ Javascript의 작동원리를 근본적으로 이해하고, 코드를 작성할 
 
 </div>
 </details>
+
+### 4주차 빌트인 객체, 프로토타입, this
+
+<details>
+<summary> <b> 내용 보기 </b>  </summary>
+<div markdown="1">
+
+- 진주: 19장 프로토타입 후반부 (19.8 ~ )
+- 윤호: 19장 프로토타입 전반부 ( ~ 19.7)
+- 태은: 22장 this
+- 상민: 21장 strict mode + 22장 빌트인 
+
+</div>
+</details>
+
