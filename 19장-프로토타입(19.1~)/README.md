@@ -337,7 +337,7 @@ const obj = {};
 console.log(obj.constructor === Object); // true
 ```
 
-- object 생성자 함수에 인수를 전달하지 않거나 undefined 또는 null을 인수로 전다라혐ㄴ서 호출하면 내부적으로Object.prototype을 프로토타입으로 갖는 빈 객체를 생성한다.
+- object 생성자 함수에 인수를 전달하지 않거나 undefined 또는 null을 인수로 전달하면서 호출하면 내부적으로Object.prototype을 프로토타입으로 갖는 빈 객체를 생성한다.
 
 ```js
 // 2. Object 생성자 함수에 의한 객체 생성
