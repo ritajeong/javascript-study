@@ -174,7 +174,7 @@ Javascript의 작동원리를 근본적으로 이해하고, 코드를 작성할 
 </details>
 
 
-### 5주차 빌트인 객체, 프로토타입, this
+### 5주차 클로저, 클래스, 함수
 
 <details>
 <summary> <b> 내용 보기 </b>  </summary>
