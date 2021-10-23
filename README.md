@@ -189,3 +189,18 @@ Javascript의 작동원리를 근본적으로 이해하고, 코드를 작성할 
 </div>
 </details>
 
+### 6주차 Symbol, 이터러블, 스프레드, 디스트럭처링, Set, Map
+
+<details>
+<summary> <b> 내용 보기 </b>  </summary>
+<div markdown="1">
+
+
+
+- 태은: 33장 Symbol, 34장 이터러블 
+- 윤호: 35장 스프레드 문법, 36장 디스트럭처링 할당
+- 진주: 37장 Set과 Map
+
+
+</div>
+</details>
