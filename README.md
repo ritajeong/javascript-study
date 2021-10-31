@@ -158,7 +158,7 @@ Javascript의 작동원리를 근본적으로 이해하고, 코드를 작성할 
 </div>
 </details>
 
-### 4주차 빌트인 객체, 프로토타입, this
+### 4주차 빌트인 객체, strict mode, 프로토타입, this
 
 <details>
 <summary> <b> 내용 보기 </b>  </summary>
@@ -189,3 +189,35 @@ Javascript의 작동원리를 근본적으로 이해하고, 코드를 작성할 
 </div>
 </details>
 
+### 6주차 Symbol, 이터러블, 스프레드, 디스트럭처링, Set, Map
+
+<details>
+<summary> <b> 내용 보기 </b>  </summary>
+<div markdown="1">
+
+
+
+- 태은: 33장 Symbol, 34장 이터러블 
+- 윤호: 35장 스프레드 문법, 36장 디스트럭처링 할당
+- 진주: 37장 Set과 Map
+
+
+</div>
+</details>
+
+### 7주차 브라우저의 렌더링 과정, DOM, 이벤트
+
+<details>
+<summary> <b> 내용 보기 </b>  </summary>
+<div markdown="1">
+
+
+
+- 진주: 38장 브라우저의 렌더링 과정 
+- 태은: 39장 DOM(39.1 ~ 39.4)
+- 상민: 39장 DOM(39.5 ~ 39.9)
+- 윤호: 40장 이벤트
+
+
+</div>
+</details>
