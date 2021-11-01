@@ -115,7 +115,7 @@ console.log(map); // Map(1) {"key1" => "value2"}
   console.log(map); // Map(1) {"key1" => "value2"}
   ```
 
-- 일치 비교 연산자를 사용하면 NaN과 NaN은 다르다고 평가됨. 그러나 Set 객체는 이를 같다고 평가하여 중복 추가를 허용하지 않음. +0과 -0도 같은 맥락으로 허용하지 않음.
+- 일치 비교 연산자를 사용하면 NaN과 NaN은 다르다고 평가됨. 그러나 Map 객체는 이를 같다고 평가하여 중복 추가를 허용하지 않음. +0과 -0도 같은 맥락으로 허용하지 않음.
 
   ```javascript
   const map = new Map();
