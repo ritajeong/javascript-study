@@ -221,3 +221,17 @@ Javascript의 작동원리를 근본적으로 이해하고, 코드를 작성할 
 
 </div>
 </details>
+
+### 8주차 비동기 프로그래밍
+
+<details>
+<summary> <b> 내용 보기 </b>  </summary>
+<div markdown="1">
+
+- 윤호: 41장 타이머
+- 상민: 42장 비동기 프로그래밍
+- 태은: 43장 AJAX
+- 진주: 44장 REST API
+
+</div>
+</details>
