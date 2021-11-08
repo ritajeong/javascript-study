@@ -60,7 +60,8 @@
 - DOM을 구성하는 노드 객체는 자신의 구조와 정보를 제어할 수 있는 DOM API를 사용할 수 있다. 
 - 이러한 API는 자바스크립트의 프로토타입에 의해 메서드의 형태로 상속된다.
 - 노드 객체의 상속 구조는 다음과 같다.
-![노드객체구조](https://user-images.githubusercontent.com/57767891/139620868-a2dcc469-1b34-40e6-9493-bff3d27200dd.png)
+  <br>
+  ![노드객체구조](https://user-images.githubusercontent.com/57767891/139620868-a2dcc469-1b34-40e6-9493-bff3d27200dd.png)
 - 모든 노드는 Object, EventTarget, Node 객체를 상속받는다.
   - 이벤트 관련 기능은 EventTarget으로부터, 트리 탐색이나 노드 정보 제공 등의 기능은 Node로부터 상속 받는다.
 - 문서노드(document)는 Document, HTMLDocument를, 어트리뷰트 노드는 Attr을 텍스트 노드는 CharacterData를 각각 상속받는다.
