@@ -44,9 +44,12 @@
 
 - JSON Server : json 파일을 이용하여 가상 REST API 서버를 구축할 수 있는 툴
 
+
 #### 최종 디렉터리 구조
 
-![image-20211109112411679](img/README/image-20211109112411679.png)
+![image-20211109112411679](img/README/image-20211109112411679.png)  
+[레포지토리 링크](https://github.com/ritajeong/rest-api-example.git)  
+
 
 #### 과정
 
