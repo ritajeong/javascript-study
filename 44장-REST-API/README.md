@@ -213,7 +213,7 @@ localhost:3000/get_index.html 에 접근하면 db.json에 작성된 모든 todos
 
 ```
 
-- 주소창에 localhost:3000/post.html 를 입력하면 id가 5인 Angular 객체가 추가된다.
+- 주소창에 localhost:3000/post.html 를 입력하면 id가 4인 Angular 객체가 추가된다.
 
 - localhost:3000/get_index.html 에 다시 접근해보면 db.json에 추가된 것을 알 수 있다.
 
