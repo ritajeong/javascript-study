@@ -84,7 +84,8 @@
 - **이벤트 루프** 브라우저에 내장되어 있는 기능 중 하나
 - 브라우저 환경을 그림으로 표현하면 아래와 같다.
 
-![img](/Users/sam/Desktop/1oCFAbj.png)
+![image](https://user-images.githubusercontent.com/64825713/140919789-78b95dca-3705-4b69-bbab-bd5b4e519fa8.png)
+
 
 - 구글의 V8 자바스크립트 엔진을 비롯한 대부분의 자바스크립트 엔진은 크게 2개의 영역으로 구분할 수 있다.
   - 콜스택
