@@ -129,7 +129,9 @@ npm start 명령어로 JSON Server를 실행한다.
 
 localhost:3000/get_index.html 에 접근하면 db.json에 작성된 모든 todos를 get 요청으로 불러온다.
 
-![Cap 2021-11-09 11-13-26-927](../../../Users/User/Pictures/반디21/Cap 2021-11-09 11-13-26-927.jpg)
+
+
+![1](img/README/1.jpg)
 
 - #### get_retrieve.html 파일 생성
 
@@ -167,7 +169,7 @@ localhost:3000/get_index.html 에 접근하면 db.json에 작성된 모든 todos
 - 핵심코드 : xhr.open("GET", "/todos/1"); 
 - todos에서 id가 1번인 특정 todo만 취득한다.
 - localhost:3000/get_retrieve.html 에 접근하면 1번 todo만 불러온다.
-- ![Cap 2021-11-09 11-13-35-577](img/README/Cap 2021-11-09 11-13-35-577.jpg)
+- ![2](img/README/2.jpg)
 
 ## 44.3.5 POST 요청
 
@@ -212,7 +214,7 @@ localhost:3000/get_index.html 에 접근하면 db.json에 작성된 모든 todos
 
 - localhost:3000/get_index.html 에 다시 접근해보면 db.json에 추가된 것을 알 수 있다.
 
-  ![Cap 2021-11-09 11-16-53-604](img/README/Cap 2021-11-09 11-16-53-604.jpg)
+  ![3](img/README/3.jpg)
 
 ## 44.3.6 PUT 요청
 
@@ -292,7 +294,7 @@ localhost:3000/get_index.html 에 접근하면 db.json에 작성된 모든 todos
 
 ```
 
-![Cap 2021-11-09 11-19-52-377](img/README/Cap 2021-11-09 11-19-52-377.jpg)
+![4](img/README/4.jpg)
 
 ## 44.3.8 DELETE 요청
 
@@ -329,4 +331,4 @@ localhost:3000/get_index.html 에 접근하면 db.json에 작성된 모든 todos
 
 ```
 
-![Cap 2021-11-09 11-20-30-062](img/README/Cap 2021-11-09 11-20-30-062.jpg)
+![5](img/README/5.jpg)
