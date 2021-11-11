@@ -236,7 +236,7 @@ Javascript의 작동원리를 근본적으로 이해하고, 코드를 작성할 
 </div>
 </details>
 
-### 9주차 비동기 프로그래밍, 모듈
+### 9주차 프로미스, 제네레이터, async/await, 모듈
 
 <details>
 <summary> <b> 내용 보기 </b>  </summary>
