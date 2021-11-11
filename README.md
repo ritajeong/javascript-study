@@ -235,3 +235,17 @@ Javascript의 작동원리를 근본적으로 이해하고, 코드를 작성할 
 
 </div>
 </details>
+
+### 9주차 비동기 프로그래밍, 모듈
+
+<details>
+<summary> <b> 내용 보기 </b>  </summary>
+<div markdown="1">
+
+- 윤호: 45장 프로미스
+- 진주: 46장 제네레이터와 async/await
+- 상민: 47장 에러 처리
+- 태은: 48장 모듈, 49장 Babel과 Webpack을 이용한 ES6+/ES.NEXT 개발 환경 구축
+
+</div>
+</details>
