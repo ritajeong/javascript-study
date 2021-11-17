@@ -44,9 +44,12 @@
 
 - JSON Server : json 파일을 이용하여 가상 REST API 서버를 구축할 수 있는 툴
 
+
 #### 최종 디렉터리 구조
 
-![image-20211109112411679](img/README/image-20211109112411679.png)
+![image-20211109112411679](img/README/image-20211109112411679.png)  
+[레포지토리 링크](https://github.com/ritajeong/rest-api-example.git)  
+
 
 #### 과정
 
@@ -210,7 +213,7 @@ localhost:3000/get_index.html 에 접근하면 db.json에 작성된 모든 todos
 
 ```
 
-- 주소창에 localhost:3000/post.html 를 입력하면 id가 5인 Angular 객체가 추가된다.
+- 주소창에 localhost:3000/post.html 를 입력하면 id가 4인 Angular 객체가 추가된다.
 
 - localhost:3000/get_index.html 에 다시 접근해보면 db.json에 추가된 것을 알 수 있다.
 
